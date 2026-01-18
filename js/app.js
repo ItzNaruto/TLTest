@@ -3,7 +3,7 @@ const tg = window.Telegram.WebApp;
 tg.expand();
 
 const initData = tg.initData;
-const apiBase = 'https://your-vercel-url.vercel.app';  // Replace with your actual Vercel URL (e.g., 'https://tltest.vercel.app')
+const apiBase = 'https://tl-test.vercel.app';  // Replace with your actual Vercel URL (e.g., 'https://tltest.vercel.app')
 const headers = { 'Authorization': initData };
 
 let chart;
