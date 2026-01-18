@@ -1,5 +1,5 @@
 {
   "scripts": {
-    "build": "echo 'Static build complete'"
+    "build": "mkdir -p dist && cp -r index.html js css dist/"
   }
 }
